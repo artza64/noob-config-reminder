@@ -1,0 +1,21 @@
+@import 'compass';
+@import 'compass/reset';
+
+
+// Vars
+$default-color: black;
+$primary-color: white;
+$search-color: grey;
+$link-color: blue;
+
+$light-font: 300;
+$regular-font: 600;
+$semiBold-font: 600;
+$default-size: 16px;
+
+
+// Imports files
+@import 'mixins';
+@import 'default';
+@import 'header';
+@import 'home';
